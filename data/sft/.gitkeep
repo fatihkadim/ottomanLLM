@@ -1,0 +1,2 @@
+# Bu dizin fine-tuning soru-cevap çiftlerini içerir.
+# scripts/generate_sft_qa_pairs.py ile oluşturulur.

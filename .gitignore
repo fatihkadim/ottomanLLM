@@ -1,0 +1,62 @@
+# ============================================
+# OttomanLM — .gitignore
+# ============================================
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# ── Virtual Environment ──
+venv/
+.venv/
+env/
+.env/
+
+# ── Scripts (veri toplama — ayrı tutulur) ──
+scripts/
+docs/
+
+# ── Data (büyük dosyalar) ──
+data/raw/**/*.txt
+data/raw/**/*.json
+data/raw/kadisicilleri/
+data/raw/pdfs/
+data/processed/
+data/page_list.json
+data/wikisource_titles.json
+
+# ── Model Checkpoints & Tokenizer Artifacts ──
+checkpoints/*.pt
+checkpoints/*.bin
+checkpoints/*.safetensors
+tokenizer/*.model
+tokenizer/*.vocab
+
+# ── IDE & Editor ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── OS ──
+desktop.ini
+ehthumbs.db
+
+# ── Logs & Misc ──
+*.log
+wandb/
+runs/
+
+# ── Temporary scripts ──
+_audit.ps1
+check_kadi.ps1
