@@ -38,6 +38,7 @@ checkpoints/*.bin
 checkpoints/*.safetensors
 tokenizer/*.model
 tokenizer/*.vocab
+artifacts/
 
 # ── IDE & Editor ──
 .vscode/
